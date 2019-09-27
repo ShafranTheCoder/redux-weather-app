@@ -1,0 +1,25 @@
+.weather-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.weather__desc {
+  width: 40%;
+  min-width: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  font-size: 25px;
+  line-height: 26px;
+  color: white;
+}
+.weather__value {
+}
+@media screen and (max-width: 599px) {
+  .weather-info {
+    display: none;
+  }
+}
